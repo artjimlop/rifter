@@ -7,5 +7,7 @@ defmodule RifterWeb.Router do
 
   scope "/api", RifterWeb do
     pipe_through :api
+
+    resources "/users", UserController
   end
 end

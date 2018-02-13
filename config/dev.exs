@@ -39,8 +39,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :rifter, Rifter.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "arturo",
+  password: "",
   database: "rifter_dev",
   hostname: "localhost",
   pool_size: 10
